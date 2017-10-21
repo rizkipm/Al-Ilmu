@@ -5,6 +5,7 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -111,6 +112,65 @@
             </objects>
             <point key="canvasLocation" x="749.60000000000002" y="-320.68965517241384"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="XUI-S8-ffS">
+            <objects>
+                <viewController id="oM5-y5-2fu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="utc-h8-x5l">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ycV-ER-PpM">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="EhQ-RY-7RH"/>
+                                    <constraint firstAttribute="height" constant="44" id="SjA-q1-QbS"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Info" id="cY7-9T-3Hz"/>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="reb-Rk-xDQ">
+                                <rect key="frame" x="106" y="65" width="176" height="164"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="164" id="5HL-Mz-1FT"/>
+                                    <constraint firstAttribute="width" constant="176" id="AFt-WM-Cpq"/>
+                                    <constraint firstAttribute="width" secondItem="reb-Rk-xDQ" secondAttribute="height" multiplier="44:41" id="Wn9-oS-iEv"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vrr-4V-GFi">
+                                <rect key="frame" x="6" y="237" width="361" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">BBG Al - Ilmu menyajikan Kajian Islam Ahlu Sunnah Wal Jama'ah, Hadist - hadist Nabi Shalallhu 'alaihi wassalam, juga nasehat para asatidz dan ulama Ahlu Sunnah, yang insya Allah sesuai dengan pemahaman para sahabat nabi ridwanallahu' anhum jami'an. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hbJ-bU-Oo4">
+                                <rect key="frame" x="6" y="338" width="361" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Semoga Allah Ta'ala senantiasa memberikan hidayah kepada kami, kaum muslimin, bangsa indonesia, dan seluruh penduduk di Bumi Allah Ta'ala ini. Allahul musta'an</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94700684479999997" green="1" blue="0.96822849519999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gFF-jg-04h" firstAttribute="bottom" secondItem="ycV-ER-PpM" secondAttribute="bottom" constant="623" id="3KZ-wZ-QoJ"/>
+                            <constraint firstItem="ycV-ER-PpM" firstAttribute="top" secondItem="utc-h8-x5l" secondAttribute="top" id="AYk-HS-fn5"/>
+                            <constraint firstItem="gFF-jg-04h" firstAttribute="bottom" secondItem="reb-Rk-xDQ" secondAttribute="bottom" constant="438" id="ApD-mZ-hy8"/>
+                            <constraint firstItem="ycV-ER-PpM" firstAttribute="trailing" secondItem="gFF-jg-04h" secondAttribute="trailing" id="f51-JJ-q0d"/>
+                            <constraint firstItem="reb-Rk-xDQ" firstAttribute="leading" secondItem="gFF-jg-04h" secondAttribute="leading" constant="106" id="oQb-Tp-oOC"/>
+                            <constraint firstItem="gFF-jg-04h" firstAttribute="trailing" secondItem="reb-Rk-xDQ" secondAttribute="trailing" constant="93" id="oou-jX-94k"/>
+                            <constraint firstItem="reb-Rk-xDQ" firstAttribute="top" secondItem="ycV-ER-PpM" secondAttribute="bottom" constant="21" id="pgv-hh-2gz"/>
+                            <constraint firstItem="ycV-ER-PpM" firstAttribute="leading" secondItem="gFF-jg-04h" secondAttribute="leading" id="wfF-x4-9Bm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gFF-jg-04h"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L0j-az-Wrw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1488.8" y="-320.68965517241384"/>
+        </scene>
         <!--Second-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
@@ -173,6 +233,7 @@
         <image name="WinRAR-icon" width="128" height="128"/>
         <image name="first" width="30" height="30"/>
         <image name="information" width="32" height="32"/>
+        <image name="logo" width="800" height="800"/>
         <image name="second" width="30" height="30"/>
     </resources>
 </document>
