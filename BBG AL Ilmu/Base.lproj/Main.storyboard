@@ -30,27 +30,27 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WJoy-icon" translatesAutoresizingMaskIntoConstraints="NO" id="tuH-nM-gSV">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="beranda_default" translatesAutoresizingMaskIntoConstraints="NO" id="tuH-nM-gSV">
                                 <rect key="frame" x="27" y="83" width="112" height="112"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PhotoscapeX-icon" translatesAutoresizingMaskIntoConstraints="NO" id="5kz-vy-xwd">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kajian_default" translatesAutoresizingMaskIntoConstraints="NO" id="5kz-vy-xwd">
                                 <rect key="frame" x="27" y="247" width="112" height="112"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WJoy-icon" translatesAutoresizingMaskIntoConstraints="NO" id="RKi-e6-10J">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tanya_default" translatesAutoresizingMaskIntoConstraints="NO" id="RKi-e6-10J">
                                 <rect key="frame" x="27" y="418" width="112" height="112"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PhotoscapeX-icon" translatesAutoresizingMaskIntoConstraints="NO" id="ltN-Yq-J0C">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="social_default" translatesAutoresizingMaskIntoConstraints="NO" id="ltN-Yq-J0C">
                                 <rect key="frame" x="214" y="418" width="112" height="112"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WJoy-icon" translatesAutoresizingMaskIntoConstraints="NO" id="9K6-0h-laS">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="picture_default" translatesAutoresizingMaskIntoConstraints="NO" id="9K6-0h-laS">
                                 <rect key="frame" x="214" y="247" width="112" height="112"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WinRAR-icon" translatesAutoresizingMaskIntoConstraints="NO" id="dUl-pZ-Pyd">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fiqih_default" translatesAutoresizingMaskIntoConstraints="NO" id="dUl-pZ-Pyd">
                                 <rect key="frame" x="214" y="83" width="112" height="112"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -141,7 +141,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vrr-4V-GFi">
                                 <rect key="frame" x="6" y="237" width="361" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">BBG Al - Ilmu menyajikan Kajian Islam Ahlu Sunnah Wal Jama'ah, Hadist - hadist Nabi Shalallhu 'alaihi wassalam, juga nasehat para asatidz dan ulama Ahlu Sunnah, yang insya Allah sesuai dengan pemahaman para sahabat nabi ridwanallahu' anhum jami'an. </string>
+                                <string key="text">BBG Al - Ilmu menyajikan Kajian Islam Ahlu Sunnah Wal Jama'ah, Hadist - hadist Nabi Shalallhu 'alaihi wassalam, juga nasehat para asatidz dan ulama Ahlu Sunnah, yang insya Allah sesuai dengan pemahaman para sahabat ridwanallahu' anhum jami'an. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -228,12 +228,15 @@
         </scene>
     </scenes>
     <resources>
-        <image name="PhotoscapeX-icon" width="128" height="128"/>
-        <image name="WJoy-icon" width="128" height="128"/>
-        <image name="WinRAR-icon" width="128" height="128"/>
+        <image name="beranda_default" width="180" height="180"/>
+        <image name="fiqih_default" width="180" height="180"/>
         <image name="first" width="30" height="30"/>
         <image name="information" width="32" height="32"/>
+        <image name="kajian_default" width="180" height="180"/>
         <image name="logo" width="800" height="800"/>
+        <image name="picture_default" width="180" height="180"/>
         <image name="second" width="30" height="30"/>
+        <image name="social_default" width="180" height="180"/>
+        <image name="tanya_default" width="180" height="180"/>
     </resources>
 </document>
