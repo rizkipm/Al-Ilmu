@@ -15,6 +15,8 @@
 		9A0F731F1F8B1549001D803D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0F731D1F8B1549001D803D /* LaunchScreen.storyboard */; };
 		9A0F732A1F8B1549001D803D /* BBG_AL_IlmuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F73291F8B1549001D803D /* BBG_AL_IlmuTests.swift */; };
 		9A0F73351F8B1549001D803D /* BBG_AL_IlmuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F73341F8B1549001D803D /* BBG_AL_IlmuUITests.swift */; };
+		9A256C631FAD3FEA002EEFBA /* NamaSifatAllahVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A256C621FAD3FEA002EEFBA /* NamaSifatAllahVC.swift */; };
+		9A256C651FAD420C002EEFBA /* NamaSifatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A256C641FAD420C002EEFBA /* NamaSifatViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		9A0F73301F8B1549001D803D /* BBG AL IlmuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BBG AL IlmuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0F73341F8B1549001D803D /* BBG_AL_IlmuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBG_AL_IlmuUITests.swift; sourceTree = "<group>"; };
 		9A0F73361F8B1549001D803D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A256C621FAD3FEA002EEFBA /* NamaSifatAllahVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamaSifatAllahVC.swift; sourceTree = "<group>"; };
+		9A256C641FAD420C002EEFBA /* NamaSifatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamaSifatViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		9A0F73111F8B1549001D803D /* BBG AL Ilmu */ = {
 			isa = PBXGroup;
 			children = (
+				9A256C621FAD3FEA002EEFBA /* NamaSifatAllahVC.swift */,
+				9A256C611FAD3F5A002EEFBA /* New Group */,
 				9A0F73121F8B1549001D803D /* AppDelegate.swift */,
 				9A0F73141F8B1549001D803D /* FirstViewController.swift */,
 				9A0F73161F8B1549001D803D /* SecondViewController.swift */,
@@ -106,6 +112,7 @@
 				9A0F731B1F8B1549001D803D /* Assets.xcassets */,
 				9A0F731D1F8B1549001D803D /* LaunchScreen.storyboard */,
 				9A0F73201F8B1549001D803D /* Info.plist */,
+				9A256C641FAD420C002EEFBA /* NamaSifatViewController.swift */,
 			);
 			path = "BBG AL Ilmu";
 			sourceTree = "<group>";
@@ -126,6 +133,13 @@
 				9A0F73361F8B1549001D803D /* Info.plist */,
 			);
 			path = "BBG AL IlmuUITests";
+			sourceTree = "<group>";
+		};
+		9A256C611FAD3F5A002EEFBA /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +276,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A256C651FAD420C002EEFBA /* NamaSifatViewController.swift in Sources */,
+				9A256C631FAD3FEA002EEFBA /* NamaSifatAllahVC.swift in Sources */,
 				9A0F73171F8B1549001D803D /* SecondViewController.swift in Sources */,
 				9A0F73131F8B1549001D803D /* AppDelegate.swift in Sources */,
 				9A0F73151F8B1549001D803D /* FirstViewController.swift in Sources */,
