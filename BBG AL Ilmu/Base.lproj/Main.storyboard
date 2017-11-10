@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WgM-7h-sQq">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -46,6 +46,40 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nSe-U8-CtR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="736.79999999999995" y="-1017.84107946027"/>
+        </scene>
+        <!--Sifat Allah View Controller-->
+        <scene sceneID="Rfv-SM-IGF">
+            <objects>
+                <viewController id="WgM-7h-sQq" customClass="MNSifatAllahViewController" customModule="BBG_AL_Ilmu" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Rga-JN-2Lu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gm9-83-LOP">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gm9-83-LOP" firstAttribute="top" secondItem="Rga-JN-2Lu" secondAttribute="top" id="5Lh-ru-6UX"/>
+                            <constraint firstItem="gm9-83-LOP" firstAttribute="bottom" secondItem="fCn-Ig-q7v" secondAttribute="bottom" id="OyB-TW-7si"/>
+                            <constraint firstItem="gm9-83-LOP" firstAttribute="leading" secondItem="fCn-Ig-q7v" secondAttribute="leading" id="h9G-vh-0pK"/>
+                            <constraint firstItem="gm9-83-LOP" firstAttribute="trailing" secondItem="fCn-Ig-q7v" secondAttribute="trailing" id="uPl-DY-X23"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fCn-Ig-q7v"/>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="gm9-83-LOP" id="WZY-5y-lZR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jFS-c5-OLw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1504.8" y="-978.26086956521749"/>
         </scene>
         <!--First-->
         <scene sceneID="hNz-n2-bh7">
@@ -137,9 +171,6 @@
                                 <rect key="frame" x="214" y="83" width="112" height="112"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="fiqih_default"/>
-                                <connections>
-                                    <segue destination="xie-GJ-1PU" kind="modal" id="aJb-0y-B50"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

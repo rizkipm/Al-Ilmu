@@ -17,6 +17,7 @@
 		9A0F73351F8B1549001D803D /* BBG_AL_IlmuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F73341F8B1549001D803D /* BBG_AL_IlmuUITests.swift */; };
 		9A256C631FAD3FEA002EEFBA /* NamaSifatAllahVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A256C621FAD3FEA002EEFBA /* NamaSifatAllahVC.swift */; };
 		9A256C651FAD420C002EEFBA /* NamaSifatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A256C641FAD420C002EEFBA /* NamaSifatViewController.swift */; };
+		9A5BABB51FB4946700070624 /* MNSifatAllahViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5BABB41FB4946700070624 /* MNSifatAllahViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		9A0F73361F8B1549001D803D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A256C621FAD3FEA002EEFBA /* NamaSifatAllahVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamaSifatAllahVC.swift; sourceTree = "<group>"; };
 		9A256C641FAD420C002EEFBA /* NamaSifatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamaSifatViewController.swift; sourceTree = "<group>"; };
+		9A5BABB41FB4946700070624 /* MNSifatAllahViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNSifatAllahViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				9A0F731D1F8B1549001D803D /* LaunchScreen.storyboard */,
 				9A0F73201F8B1549001D803D /* Info.plist */,
 				9A256C641FAD420C002EEFBA /* NamaSifatViewController.swift */,
+				9A5BABB41FB4946700070624 /* MNSifatAllahViewController.swift */,
 			);
 			path = "BBG AL Ilmu";
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 			files = (
 				9A256C651FAD420C002EEFBA /* NamaSifatViewController.swift in Sources */,
 				9A256C631FAD3FEA002EEFBA /* NamaSifatAllahVC.swift in Sources */,
+				9A5BABB51FB4946700070624 /* MNSifatAllahViewController.swift in Sources */,
 				9A0F73171F8B1549001D803D /* SecondViewController.swift in Sources */,
 				9A0F73131F8B1549001D803D /* AppDelegate.swift in Sources */,
 				9A0F73151F8B1549001D803D /* FirstViewController.swift in Sources */,
